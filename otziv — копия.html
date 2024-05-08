@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        AMUAMU
+    </title>
+    <link rel="stylesheet" href="static/css/css.css">
+    <meta charset="UTF-8">
+</head>
+<form class="contact_form" action="" method="post" name="contact_form"> 
+    <div id="okno1">
+        <ul>
+            <li>
+                <h2>Оставить отзыв</h2>
+            </li> 
+
+            <li>
+                <label for="name">Имя:</label>
+                  <input type="text" name="name" id="name"/>
+            </li>
+
+            <li>
+                <label for="email">Почта:</label>
+                <input type="email" email="email" id="email"/>
+            </li>
+            
+            <div class="stars">
+              <span class="star" data-rating="1">★</span>
+              <span class="star" data-rating="2">★</span>
+              <span class="star" data-rating="3">★</span>
+              <span class="star" data-rating="4">★</span>
+              <span class="star" data-rating="5">★</span>
+            </div>
+
+            <li>
+                <label for="voz">Отзыв:</label>
+                <textarea type="voz" fam="voz" id="voz"></textarea>
+            </li>
+
+            <li>
+                <button class="submit" type="submit" onclick="otziv()">Оставить отзыв</button>
+            </li>
+
+        </ul>
+    </div>
+    <script src="static/script/script.js"></script>
+</form>
